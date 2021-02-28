@@ -16,11 +16,9 @@
   margin: 0;
   padding: 0;
 }
-
-body {
+body{
   background-color: var(--just-white);
 }
-
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
@@ -35,15 +33,13 @@ header {
   min-width: 320px;
   text-align: center;
 }
-
-.slide {
+.slide{
   align-self: center;
   width: 100%;
   height: 90vh;
   max-height: 90vh;
 }
-
-.slide-one {
+.slide-one{
   width: 100%;
   height: 92vh;
   background-image: url(../assets/img/slide1.jpg);
@@ -51,8 +47,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
-
-.slide-two {
+.slide-two{
   width: 100%;
   height: 92vh;
   background-image: url(../assets/img/slide2.jpg);
@@ -60,8 +55,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
-
-.slide-three {
+.slide-three{
   width: 100%;
   height: 92vh;
   background-image: url(../assets/img/slide3.jpg);
@@ -69,31 +63,24 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 nav {
   background-color: var(--warm-black);
   font-size: 1.4rem;
 
 }
-.logo__container {
-  width: 60%;
-  display: flex;
-  align-items: center;
 
-}
 
 .logo__container img {
   width: 30px;
-  height: 40px;
+  margin-left: 30px;
   margin-right: 15px;
-  
 }
 
 .logo__container a {
   color: var(--grey);
   text-decoration: none;
   font-size: 1.4rem;
-  align-content: center;
+  padding: 5px;
 }
 
 .navbar-nav {
@@ -178,9 +165,11 @@ main {
 .main-exchange-container--title {
   width: 70%;
   height: auto;
+  border: 1px solid transparent;
   min-width: 288px;
   max-width: 950px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .main-exchange-container .backgroundImg {
@@ -209,7 +198,7 @@ main {
   line-height: 1.6rem;
   color: #757575;
   text-align: center;
-
+  
 }
 
 .main-currency-table,
@@ -222,32 +211,49 @@ main {
 
   font-family: "Inter", sans-serif;
 }
-
-.img-company {
-  width: 250px;
-  height: 240px;
-  margin: 0 auto;
+.img-company{
+  width: 300px;
+  height: 110%;
   background-image: url(../assets/img/slide3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 50%;
-  margin-bottom: 30px;
 }
 
+.main-currency-table .currency-table--title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: var(--zaragoza-red);
+}
 
+.main-commissions-table .commissions-table--title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: var(--secondary-blue);
+}
 
 .currency-table--container,
 .commissions-table--container {
   width: 90%;
-  min-width: 235px;
+  min-width: 230px;
   max-width: 600px;
   height: 250px;
   margin: 0 auto;
+  /* background-color: #fff; */
+  border-radius: 15px;
 }
-
-.currency-table--container p {
-  text-align: justify;
+.currency-table--container p{
+  text-align: left;
+}
+.currency-table--container table,
+.commissions-table--container table {
+  width: 100%;
+  height: 100%;
 }
 
 .currency-table--container td,
@@ -347,13 +353,11 @@ main {
   background-color: var(--black);
 }
 
-
-
 .product-detail--batata-logo {
   position: absolute;
   width: 80px;
   height: 100px;
-  left: calc(50% - 40px);
+  left: calc(50% - 20px);
   top: -50px;
   background-image: url("../assets/icons/zaragoza-01.svg");
   background-size: cover;
@@ -368,12 +372,6 @@ main {
   margin: 0 auto;
   margin-top: 50px;
   text-align: center;
-}
-
-.article_container {
-  display: flex;
-  width: 100%;
-  border: 1px solid white;
 }
 
 .product-detail--title h2 {
@@ -393,25 +391,23 @@ main {
 }
 
 .product-detail--card {
-  border: 1px solid white;
-  text-align: center;
   width: 90%;
-  height: 180px;
   min-width: 288px;
   max-width: 400px;
-  margin: 20px auto;
+  height: 152px;
+  margin: 15px auto;
   padding: 15px;
   background-color: var(--warm-black);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
   border-radius: 4px;
 }
 
-
 .product-detail--card .clock {
   display: inline-block;
   width: 50px;
   height: 50px;
-  margin: 10px auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
   background-image: url("../assets/icons/mexico-01.svg");
   background-size: cover;
   background-position: center;
@@ -422,7 +418,8 @@ main {
   display: inline-block;
   width: 50px;
   height: 50px;
-  margin: 10px auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
   background-image: url("../assets/icons/sucursales-01.svg");
   background-size: cover;
   background-position: center;
@@ -433,7 +430,8 @@ main {
   display: inline-block;
   width: 50px;
   height: 50px;
-  margin: 10px auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
   background-image: url("../assets/icons/colaboradores.svg");
   background-size: cover;
   background-position: center;
@@ -444,7 +442,8 @@ main {
   display: inline-block;
   width: 50px;
   height: 50px;
-  margin: 10px auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
   background-image: url("../assets/icons/clientes.svg");
   background-size: cover;
   background-position: center;
@@ -508,13 +507,12 @@ main {
   color: #757575;
 }
 
-.plan-card img {
+.plan-card img{
   width: 200px;
   height: 200px;
   border-radius: 50%;
   margin-bottom: 10px;
 }
-
 .plans-container--slider {
   display: flex;
   /* gap: 50px; Aun no está soportado por todos los navegadores :( */
@@ -591,7 +589,26 @@ main {
   background-image: url("../assets/icons/orange-right-arrow.svg");
   vertical-align: text-bottom;
 }
+.contact-container{
+  text-align: center;
+}
+.contact-container h2{
+  margin-bottom: 20px;
+}
 
+footer {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color:var(--warm-black);
+}
+
+footer section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
 
 .left ul {
   font-size: 1.4rem;
@@ -608,101 +625,6 @@ main {
   text-decoration: none;
   color: var(--just-white);
 }
-
-.right img {
+.right img{
   width: 60px;
-}
-
-
-/* section sucursales  */
-
-.main-suc-detail {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  box-sizing: border-box;
-  min-width: 320px;
-  height: auto;
-  padding: 20px 10px;
-  background-color: var(--black);
-}
-
-.suc-detail--title {
-  width: 90%;
-  min-width: 288px;
-  height: auto;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.suc-detail--title h2 {
-  margin-bottom: 20px;
-  font-size: 2.4rem;
-  font-weight: bold;
-  line-height: 2.6rem;
-  color: var(--just-white);
-}
-.suc-cards--container{
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-.suc-detail--card {
-  margin: 10px;
-  text-align: center;
-  width: 100px;
-  height: 100px;
-}
-
-.suc-detail--card .cdmx {
-  display: inline-block;
-  align-content: space-between;
-  width: 40px;
-  height: 40px;
-  background-image: url("../assets/icons/mexico-01.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-
-.contact-container {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 800px;
-  margin-bottom: 20px;
-
-}
-
-.contact-container h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-form .btn-primary{
-  width: 100%;
-  height: 40px;
-  margin-top: 10px;
-  background-color: var(--zaragoza-red);
-  border: 1px solid  var(--zaragoza-red);
-}
-form .btn-primary:hover{
-  width: 100%;
-  height: 40px;
-  margin-top: 10px;
-  background-color: var(--warm-black);
-}
-
-footer {
-  display: flex;
-  width: 100%;
-  height: 150px;
-  background-color: var(--warm-black);
-}
-
-footer section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
 }
