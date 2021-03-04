@@ -40,7 +40,7 @@
   
   .promo-hero-bg-image {
     overflow: hidden;
-    background-image: url(https://placehold.it/2000x900);
+    background-image: url(https://images.unsplash.com/photo-1565008447742-97f6f38c985c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1778&q=80);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -55,7 +55,19 @@
     position: relative;
     z-index: 1;
   }
-  
+  .alum-zaragoza{
+    margin-top: 10px;
+  }
+  .logo-zaragoza{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+  }
+  .menu-up{
+    margin-top: 20px;
+    width: 300px;
+    display: inline-flex;
+  }
   .button-dropdwn_container{
       height: 550px;
 
@@ -63,3 +75,65 @@
  .dropdown-pane{
     width: 70%;
  }
+ .buttonShop{
+   display: inline-block;
+   text-align: center;
+   cursor: pointer;
+   -webkit-appearance: none;
+   transition: all .25s ease-out;
+   border: 1px solid transparent;
+   border-radius: 0;
+   padding: .85em 1em;
+   margin: 0 1rem 1rem 0;
+   font-size: .9rem;
+   background-color: #B4252D;
+   color: #fff;
+   width: 130px;
+ }
+ .buttonShop:hover{
+  background-color: #9c0109;
+  color: white;
+
+ }
+ .buttonShop-white{
+  display: inline-block;
+  width: 130px;
+   text-align: center;
+   cursor: pointer;
+   -webkit-appearance: none;
+   transition: all .25s ease-out;
+   border: 1px solid transparent;
+   border-radius: 0;
+   padding: .85em 1em;
+   margin: 0 1rem 1rem 0;
+   font-size: .9rem;
+   color: white;
+   border: 1px solid white;
+ }
+ .buttonShop-white:hover{
+  background-color: white;
+  border: none;
+   color: #B4252D;;
+ }
+ .button-catalogo {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: all .25s ease-out;
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding: .85em 1em;
+  margin: 0 1rem 1rem 0;
+  font-size: 1.2rem;
+  background: #B4252D;
+  color: #fff;
+  width: 100%;
+}
+.button-catalogo:hover{
+  background: #9c0109;
+  color: #fff;
+}
+.tabs-title a{
+  font-size: 16px;
+}

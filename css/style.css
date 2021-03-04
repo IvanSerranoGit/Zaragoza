@@ -39,13 +39,13 @@ header {
 .slide {
   align-self: center;
   width: 100%;
-  height: 90vh;
+  height: 50vh;
   max-height: 90vh;
 }
 
 .slide-one {
   width: 100%;
-  height: 92vh;
+  height: 50vh;
   background-image: url(../assets/img/slide1.jpg);
   background-size: cover;
   background-position: center;
@@ -54,7 +54,7 @@ header {
 
 .slide-two {
   width: 100%;
-  height: 92vh;
+  height: 50vh;
   background-image: url(../assets/img/slide2.jpg);
   background-size: cover;
   background-position: center;
@@ -63,17 +63,22 @@ header {
 
 .slide-three {
   width: 100%;
-  height: 92vh;
+  height: 50vh;
   background-image: url(../assets/img/slide3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-nav {
+nav  {
   background-color: var(--warm-black);
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  
 
+}
+.container-fluid{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .logo__container {
   width: 60%;
@@ -83,8 +88,8 @@ nav {
 }
 
 .logo__container img {
-  width: 30px;
-  height: 40px;
+  width: 40px;
+  height: 50px;
   margin-right: 15px;
   
 }
@@ -92,7 +97,7 @@ nav {
 .logo__container a {
   color: var(--grey);
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   align-content: center;
 }
 
@@ -117,7 +122,7 @@ nav {
 }
 
 .header--title-container h1 {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--just-white);
@@ -125,7 +130,7 @@ nav {
 
 .header--title-container p {
   margin-top: 25px;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.8rem;
   color: var(--soft-orange);
@@ -170,8 +175,9 @@ main {
 .main-exchange-container {
   width: 100%;
   height: auto;
-  padding-top: 70px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  margin-bottom: 90px;
+  padding-bottom: 70px;
   text-align: center;
 }
 
@@ -185,7 +191,7 @@ main {
 
 .main-exchange-container .backgroundImg {
   width: 120px;
-  height: 180px;
+  height: 190px;
   margin: 0 auto;
   margin-bottom: 30px;
   background-image: url("../assets/img/zaragoza.svg");
@@ -195,148 +201,52 @@ main {
 }
 
 .main-exchange-container h2 {
-  margin-bottom: 30px;
-  font-size: 2.4rem;
+  margin-bottom: 20px;
+  font-size: 3rem;
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--black);
 }
-
-.main-exchange-container p {
-  margin-bottom: 30px;
+.main-exchange-container p{
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.6rem;
-  color: #757575;
-  text-align: center;
-
 }
 
-.main-currency-table,
-.main-commissions-table {
-  width: 100%;
-  min-width: 235px;
-  max-width: 1024px;
-  height: 360px;
-  margin: 0 auto;
 
-  font-family: "Inter", sans-serif;
+.main-currency-table{
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+  align-items: center;
+
 }
 
 .img-company {
+  margin-top: 20px;
   width: 250px;
   height: 240px;
-  margin: 0 auto;
   background-image: url(../assets/img/slide3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 50%;
-  margin-bottom: 30px;
 }
-
-
-
-.currency-table--container,
-.commissions-table--container {
-  width: 90%;
-  min-width: 235px;
-  max-width: 600px;
-  height: 250px;
-  margin: 0 auto;
-}
-
-.currency-table--container p {
+.text-p__container{
+  margin-top: 20px;
+  width: 80%;
+  min-width: 288px;
+  max-width: 700px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #757575;
   text-align: justify;
 }
 
-.currency-table--container td,
-.commissions-table--container td {
-  width: 50%;
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 1.9rem;
-  color: var(--grey);
-  /* border-bottom: 1px solid #faf8f7; */
-  background-color: var(--just-white);
-}
-
-.currency-table--container .table__top-left,
-.commissions-table--container .table__top-left {
-  border-radius: 15px 0 0 0;
-}
-
-.currency-table--container .table__top-right,
-.commissions-table--container .table__top-right {
-  border-radius: 0 15px 0 0;
-}
-
-.currency-table--container .table__bottom-left,
-.commissions-table--container .table__bottom-left {
-  border-radius: 0 0 0 15px;
-}
-
-.currency-table--container .table__bottom-right,
-.commissions-table--container .table__bottom-right {
-  border-radius: 0 0 15px 0;
-}
-
-.currency-table--container .table__right,
-.commissions-table--container .table__right {
-  font-size: 1.4rem;
-  font-weight: normal;
-  line-height: 1.7rem;
-  color: #757575;
-}
-
-.currency-table--container .up {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  margin-left: 10px;
-  background-image: url("../assets/icons/trending-up.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.currency-table--container .down {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  margin-left: 10px;
-  background-image: url("../assets/icons/trending-down.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.currency-table--date {
-  width: 190px;
-  height: 31px;
-  margin: 0 auto;
-  margin-top: 15px;
-  padding: 8px;
-  background-color: var(--soft-orange);
-  border-radius: 8px;
-}
-
-.commissions-table--date {
-  width: 190px;
-  height: 31px;
-  margin: 0 auto;
-  margin-top: 15px;
-  padding: 8px;
-  background-color: var(--soft-blue);
-  border-radius: 8px;
-}
-
-.currency-table--date p,
-.commissions-table--date p {
-  margin: 7px;
-  font-size: 1.2rem;
-  line-height: 1.5px;
-}
 
 .main-product-detail {
   position: relative;
@@ -386,10 +296,10 @@ main {
 
 .product-detail--title p {
   margin-bottom: 20px;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: 500;
   line-height: 1.8rem;
-  color: #808080;
+  color: #b4b0b0;
 }
 
 .product-detail--card {
@@ -463,7 +373,7 @@ main {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
-  color: #808080;
+  color: #b4b0b0;
 }
 
 .bitcoin-img-container {
@@ -530,7 +440,7 @@ main {
   width: 70%;
   min-width: 230px;
   max-width: 300px;
-  height: 350px;
+  height: 400px;
   margin: 50px 30px 0;
   padding: 0 15px;
   background-color: var(--just-white);
@@ -553,7 +463,8 @@ main {
 
 .plan-card--title {
   padding-top: 30px;
-  font-size: 1.4rem;
+  padding-bottom: 10px;
+  font-size: 1.8rem;
   font-weight: 500;
   line-height: 1.8rem;
   color: black;
@@ -569,12 +480,13 @@ main {
 
 .plans-container--card .plan-card--saving {
   padding-top: 0;
+  height: 60px;
 }
 
 .plan-card--ca {
   width: 151px;
   height: 48px;
-  margin-top: 20px;
+  margin-top: 35px;
   background: var(--off-white);
   border: 2px solid var(--zaragoza-red);
   border-radius: 4px;
@@ -582,6 +494,10 @@ main {
   font-weight: bold;
   line-height: 1.8rem;
   color: var(--black);
+}
+.plan-card--ca:hover {
+  background-color: var(--zaragoza-red);
+  color: var(--off-white);
 }
 
 .plan-card--ca span {
@@ -652,6 +568,12 @@ main {
   text-align: center;
   width: 100px;
   height: 100px;
+
+}
+.suc-detail--card a{
+  font-size: 1.3rem;
+  color: var(--off-white);
+  text-decoration: none;
 }
 
 .suc-detail--card .cdmx {
@@ -659,7 +581,88 @@ main {
   align-content: space-between;
   width: 40px;
   height: 40px;
-  background-image: url("../assets/icons/mexico-01.svg");
+  background-image: url("../assets/icons/cdmx-01.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.suc-detail--card .edomex {
+  display: inline-block;
+  align-content: space-between;
+  width: 40px;
+  height: 40px;
+  background-image: url("../assets/icons/edomex-01.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.suc-detail--card .morelos {
+  display: inline-block;
+  align-content: space-between;
+  width: 40px;
+  height: 40px;
+  background-image: url("../assets/icons/morelos-01.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.suc-detail--card .puebla {
+  display: inline-block;
+  align-content: space-between;
+  width: 40px;
+  height: 40px;
+  background-image: url("../assets/icons/puebla-01.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.suc-detail--card .veracruz {
+  display: inline-block;
+  align-content: space-between;
+  width: 40px;
+  height: 40px;
+  background-image: url("../assets/icons/veracruz-01.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.suc-detail--card .tabasco {
+  display: inline-block;
+  align-content: space-between;
+  width: 40px;
+  height: 40px;
+  background-image: url("../assets/icons/tabasco-01.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.suc-detail--card .oaxaca {
+  display: inline-block;
+  align-content: space-between;
+  width: 40px;
+  height: 40px;
+  background-image: url("../assets/icons/oaxaca-01.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.suc-detail--card .michoacan {
+  display: inline-block;
+  align-content: space-between;
+  width: 40px;
+  height: 40px;
+  background-image: url("../assets/icons/mochoacan-01.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.suc-detail--card .guerrero {
+  display: inline-block;
+  align-content: space-between;
+  width: 40px;
+  height: 40px;
+  background-image: url("../assets/icons/guerrero-01.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -705,4 +708,19 @@ footer section {
   justify-content: center;
   align-items: center;
   width: 50%;
+}
+
+
+@media (min-width: 600px) {
+  .main-currency-table{
+    justify-content: center;
+  
+  }
+  .img-company{
+    margin-right: 30px;
+  }
+  .container-fluid{
+    margin-left: 40px;
+    margin-right: 20px;
+  }
 }
