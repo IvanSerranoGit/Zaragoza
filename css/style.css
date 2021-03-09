@@ -709,6 +709,12 @@ footer section {
   align-items: center;
   width: 50%;
 }
+.social-media{
+  display: flex;
+}
+.social-media li{
+  margin-left: 5px;
+}
 
 
 @media (min-width: 600px) {
@@ -723,4 +729,21 @@ footer section {
     margin-left: 40px;
     margin-right: 20px;
   }
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+  }
+  form{
+    width: 100%;
+    justify-content: center;
+    font-size: 1.6rem;
+    padding: 5px;
+  }
+  form .btn-primary {
+    width: 270px;
+    height: 40px;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    background-color: var(--zaragoza-red);
+   }
 }
