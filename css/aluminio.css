@@ -1,3 +1,27 @@
+:root {
+  /* Colors */
+  --zaragoza-red: #B4252D;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #222B35;
+  --black: #222B35;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+  --grey: #bababa;
+}
+.top-bar{
+  background-color: var(--warm-black);
+  color: var(--just-white);
+}
+.top-bar ul{
+  background-color: transparent;
+}
+.top-bar a{
+  background-color: var(--warm-black);
+  color: var(--just-white);
+
+}
 .promo-hero {
     width: 100%;
     text-align: center;
@@ -136,4 +160,29 @@
 }
 .tabs-title a{
   font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .top-bar{
+  text-align: center;
+  }
+  .alum-zaragoza{
+    margin-left: -15px;
+  }
+  .menu{
+    text-align: center;
+    width: 100%;
+  }
+  .menu-footer{
+    width: 100%;
+    background-color: var(--warm-black);
+    color: var(--just-white);
+  }
+  .menu-footer a{
+    color: var(--just-white);
+
+  }
+  .menu-footer li{
+    display: inline-flex;
+  }
 }

@@ -12,9 +12,26 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 1024px)" />
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+
+
+  <script>
+    $(document).ready(function () {
+      $('#myModal').modal('toggle')
+    });
+  </script>
 </head>
 
 <body>
@@ -76,21 +93,20 @@
       <div class="carousel-inner">
         <div class="carousel-item active slide-one">
           <div class="carousel-caption d-none d-md-block">
-
+            <a href="https://alumza.com.mx/productos/?product=cerco-inferior-acabado-blanco"
+              class="promo-section-cta buttonShop">Ver perfiles </a>
           </div>
         </div>
         <div class="carousel-item slide-two">
           <div class="carousel-caption d-none d-md-block">
-
+            <a href="https://alumza.com.mx/productos/?product=cerco-inferior-acabado-blanco"
+              class="promo-section-cta buttonShop">Ver perfiles </a>
           </div>
         </div>
         <div class="carousel-item slide-three">
-          <!-- <div class="carousel-caption d-none d-md-block">
-            <h5>Aliminio Zaragoza</h5>
-            <p>Nos enfocamos en brindar soluciones integrales, incluyendo un excelente servicio al cliente, y para
-              lograr esto contamos, con el recurso humano necesario y la infraestuctura de nuestros almacenes y
-              sucursales distribuidos en varios puntos de la Republica Mexicana.</p>
-          </div> -->
+          <div class="carousel-caption d-none d-md-block">
+            <a href="#" class="promo-section-cta buttonShop">Ver perfiles </a>
+          </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
@@ -108,7 +124,36 @@
   </header>
 
 
+
+  
+
+  <!-- Modal HTML -->
+  <div class="modal fade " id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <button type="button" class="btn-closes" data-bs-dismiss="modal" aria-label="Close">x</button>
+        </div>
+        <div class="modal-body">
+          <video autoplay  muted controls preload="none">
+            <source src="./assets/video/intro.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+
   <main>
+
+
 
     <section class="main-exchange-container">
 
@@ -122,27 +167,28 @@
       </div>
 
 
-        <div class="main-currency-table">
-            <div class="img-company"></div>
-            <div class="text-p__container">
-              <p>
-                Para lograr esto contamos, con el recurso humano necesario y la infraestuctura de nuestros almacenes y
-                sucursales distribuidos en varios puntos de la Republica Mexicana.
-              </p>
-              <p>
-                Aluminio Zaragoza es una empresa que inició operaciones en Octubre de 1990 con capital 100% mexicano.
-                Durante los primeros años dedicados casi por completo a la comerciliazacion de perfiles de aluminio
-                arquitectonico y herrajes. Con el transcurso de los años hemos tenido una constante evolucion acorde a
-                los
-                cambios en la Industria y al mercado, y hemos agregado nuevos productos (vidrio, laminas de
-                policarbonato,
-                acrilicos, paneles y placas de aluminio), que sumado a nuestra trayectoria y talento humano nos ha
-                permitido tener un constante crecimiento, permitiendo a nuestros clientes innovar en su negocio y
-                generar
-                una experiencia diferente en su cadena de valor.
-              </p>
-            </div>
+      <div class="main-currency-table">
+        <div class="img-company"></div>
+        <div class="text-p__container">
+          <p>
+            Para lograr esto contamos, con el recurso humano necesario y la infraestuctura de nuestros almacenes y
+            sucursales distribuidos en varios puntos de la Republica Mexicana.
+          </p>
+          <p>
+            Aluminio Zaragoza es una empresa que inició operaciones en Octubre de 1990 con capital 100% mexicano.
+            Durante los primeros años dedicados casi por completo a la comerciliazacion de perfiles de aluminio
+            arquitectonico y herrajes. Con el transcurso de los años hemos tenido una constante evolucion acorde a
+            los
+            cambios en la Industria y al mercado, y hemos agregado nuevos productos (vidrio, laminas de
+            policarbonato,
+            acrilicos, paneles y placas de aluminio), que sumado a nuestra trayectoria y talento humano nos ha
+            permitido tener un constante crecimiento, permitiendo a nuestros clientes innovar en su negocio y
+            generar
+            una experiencia diferente en su cadena de valor.
+          </p>
+          <a href="./nosotros.html">Saber más</a>
         </div>
+      </div>
     </section>
 
 
@@ -201,7 +247,7 @@
               Aluminio linea nacional y linea española y accesorios para instalación
             </p>
             <a href="./aluminio.html"><button class="plan-card--ca"> Conocer <span></span></button></a>
-            
+
           </div>
         </div>
         <div class="plans-container--card">
@@ -314,7 +360,7 @@
               <label for="inputEmail4">Email</label>
               <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
             </div>
-            
+
           </div>
           <div class="form-group col-md-4">
             <label for="inputName">Nombre Completo</label>
@@ -326,12 +372,11 @@
             <input type="text" class="form-control" id="inputAddress2" placeholder="(55)">
           </div>
           <div class="form-row">
-            <div class="form-group col-md-4">
-              <label for="inputMessen">Mensaje</label>
-              <input type="text" class="form-control" id="inputCity">
+            <div class="form-group col-md-4"><br>
+              <textarea class="form-control" name="textarea" rows="5" cols="30" placeholder="mensaje"></textarea>
             </div>
-            
-            
+
+
           </div>
           <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
@@ -343,24 +388,26 @@
 
   </main>
   <footer>
-    <section class="left">
+    <section class="contact-container">
       <ul>
-        <li><a href="">telefonos</a></li>
-        
+
+        <li><a href="tel:56186279"><em class="fas fa-phone-alt"></em>5618-6279</a></li>
+        <li><a href="mailto:ventaso@alumza.com.mx?subject='Información'"><em
+              class="far fa-envelope"></em>ventas@alumza.com.mx</a></li>
         <div class="social-media">
-          <li><a href=""><i class="fab fa-facebook-square"></i></a>
+          <li><a href=""><em class="fab fa-facebook-square"></em></a>
           </li>
-          <li><a href=""><i class="fab fa-instagram-square"></i></a>
+          <li><a href=""><em class="fab fa-instagram-square"></em></a>
           </li>
-          <li><a href=""><i class="fab fa-twitter-square"></i></a>
+          <li><a href=""><em class="fab fa-twitter-square"></em></a>
           </li>
-          <li><a href=""><i class="fab fa-pinterest-square"></i></a>
+          <li><a href=""><em class="fab fa-pinterest-square"></em></a>
           </li>
-          <li><a href=""><i class="fab fa-whatsapp-square"></i></a>
+          <li><a href=""><em class="fab fa-whatsapp-square"></em></a>
           </li>
         </div>
 
-          <li><a href="">correo</a></li>
+
       </ul>
     </section>
     <section class="right">
@@ -376,7 +423,11 @@
   </script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
-
+  <script>
+    $(document).ready(function () {
+      $('exampleModal').modal('toggle')
+    });
+  </script>
 </body>
 
 </html>

@@ -1,0 +1,37 @@
+:root {
+    /* Colors */
+    --zaragoza-red: #B4252D;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #222B35;
+    --black: #222B35;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+    --grey: #bababa;
+  }
+
+.corporate-container-info{
+    display: flex;
+    padding: 0;
+    margin-top: 50px;
+ 
+}
+.corporate-container-info ul{
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.corporate-container-info li{
+    width: 180px;
+    height: 150px;
+    /* border: 2px solid #222B35; */
+    align-items: center;
+    align-content: center;
+    padding-bottom: 0;
+    list-style: none;
+    padding-bottom: 50px;
+
+}

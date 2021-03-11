@@ -22,7 +22,7 @@ body {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 70%;
   font-family: "DM Sans", sans-serif;
 }
 
@@ -35,7 +35,34 @@ header {
   min-width: 320px;
   text-align: center;
 }
+.modal .modal-dialog{
+  width: 100%;
+  height: 100%;
 
+}
+.modal-header .btn-closes{
+  box-sizing: content-box;
+  width: 2em;
+  height: 2em;
+  padding: .5em .5em;
+  font-size: 1.6rem;
+  color: #fff;
+  border: 0;
+  background-color: #B4252D;
+  border-radius: .25rem;
+}
+.modal-content{
+  background-color: transparent;
+  align-items: center;
+  width: 100%;
+
+}
+.modal .modal-dialog{
+}
+.modal-body video{
+  width: 700px;
+  height: 500px;
+}
 .slide {
   align-self: center;
   width: 100%;
@@ -46,7 +73,7 @@ header {
 .slide-one {
   width: 100%;
   height: 50vh;
-  background-image: url(../assets/img/slide1.jpg);
+  background-image: url(../assets/img/slide1-01.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +82,7 @@ header {
 .slide-two {
   width: 100%;
   height: 50vh;
-  background-image: url(../assets/img/slide2.jpg);
+  background-image: url(../assets/img/slide2-01.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -64,7 +91,7 @@ header {
 .slide-three {
   width: 100%;
   height: 50vh;
-  background-image: url(../assets/img/slide3.jpg);
+  background-image: url(../assets/img/slide1-01.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -171,7 +198,37 @@ main {
   width: 100%;
   height: auto;
 }
+.carousel-caption{
+  width: 350px;
+  height: 200px;
+  margin-left: -230px;
+}
+.carousel-control-prev{
+  width: 50px;
+}
+.buttonShop{
+  z-index: 2;
+  width: 300px;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: all .25s ease-out;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  padding: .5em 0;
+  font-size: 2rem;
+  background-color: #B4252D;
+  color: #fff;
+  text-decoration: none;
+}
 
+.buttonShop:hover{
+ background-color: #9c0109;
+ color: white;
+
+}
 .main-exchange-container {
   width: 100%;
   height: auto;
@@ -380,7 +437,7 @@ main {
   width: 100%;
   min-width: 320px;
   height: 50vh;
-  background-image: url("../assets/img/zaragozawallpaper.jpg");
+  background-image: url("../assets/img/fachada1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -566,7 +623,7 @@ main {
 .suc-detail--card {
   margin: 10px;
   text-align: center;
-  width: 100px;
+  width: 110px;
   height: 100px;
 
 }
@@ -707,7 +764,25 @@ footer section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
+}
+.contact-container{
+  margin-top:40px;
+}
+.contact-container a{
+  color: var(--just-white);
+  font-size: 1.6rem;
+  margin-right: 10px;
+  padding: 1px;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+.contact-container li{
+  margin-bottom: 10px;
+}
+.contact-container em{
+  margin-right: 10px;
 }
 .social-media{
   display: flex;
@@ -744,6 +819,14 @@ footer section {
     height: 40px;
     font-size: 1.6rem;
     margin-top: 10px;
+    border: none;
     background-color: var(--zaragoza-red);
+   }
+   form .btn-primary:hover {
+    width: 270px;
+    height: 40px;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    background-color: var(--warm-black);
    }
 }
