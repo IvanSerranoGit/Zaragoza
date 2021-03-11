@@ -73,7 +73,7 @@ header {
 .slide-one {
   width: 100%;
   height: 50vh;
-  background-image: url(../assets/img/slide1-01.jpg);
+  background-image: url(../assets/img/slide01-01.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@ header {
 .slide-three {
   width: 100%;
   height: 50vh;
-  background-image: url(../assets/img/slide1-01.jpg);
+  background-image: url(../assets/img/slide03-01.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -286,7 +286,7 @@ main {
   margin-top: 20px;
   width: 250px;
   height: 240px;
-  background-image: url(../assets/img/slide3.jpg);
+  background-image: url(../assets/img/slide2-01.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
