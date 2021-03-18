@@ -1,3 +1,9 @@
  i{
     margin-right: 10px;
 }
+@media (max-width: 600px) {
+    .column a{
+        font-size: 15px;
+    }
+    
+  }
