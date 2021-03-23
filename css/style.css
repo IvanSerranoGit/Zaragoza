@@ -25,6 +25,13 @@ html {
   font-size: 70%;
   font-family: "DM Sans", sans-serif;
 }
+dl, ol, ul {
+    margin-top: 0;
+   margin-bottom: 1rem;
+}
+ol, ul {
+   padding-left: 0; 
+}
 
 header {
   position: relative;
@@ -787,6 +794,7 @@ footer section {
 }
 .social-media{
   display: flex;
+  margin-top: -3px;
 }
 .social-media li{
   margin-left: 5px;
