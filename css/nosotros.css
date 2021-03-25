@@ -35,3 +35,15 @@
     padding-bottom: 50px;
 
 }
+
+
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+	.abot-us-container p{
+        text-align: justify;
+        -webkit-hyphens: auto; /* A día de hoy aún es necesario el prefijo para soportar a Safari */
+        hyphens: auto;
+    }
+    .our-history{
+        text-align: justify;
+    }
+}
