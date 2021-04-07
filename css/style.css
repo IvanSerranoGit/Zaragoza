@@ -10,7 +10,7 @@
   --just-white: #fff;
   --grey: #bababa;
 }
- 
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,12 +25,17 @@ html {
   font-size: 70%;
   font-family: "DM Sans", sans-serif;
 }
-dl, ol, ul {
-    margin-top: 0;
-   margin-bottom: 1rem;
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
-ol, ul {
-   padding-left: 0; 
+
+ol,
+ul {
+  padding-left: 0;
 }
 
 header {
@@ -42,12 +47,14 @@ header {
   min-width: 320px;
   text-align: center;
 }
-.modal .modal-dialog{
+
+.modal .modal-dialog {
   width: 100%;
   height: 100%;
 
 }
-.modal-header .btn-closes{
+
+.modal-header .btn-closes {
   box-sizing: content-box;
   width: 2em;
   height: 2em;
@@ -58,18 +65,21 @@ header {
   background-color: #B4252D;
   border-radius: .25rem;
 }
-.modal-content{
+
+.modal-content {
   background-color: transparent;
   align-items: center;
   width: 100%;
 
 }
-.modal .modal-dialog{
-}
-.modal-body video{
+
+.modal .modal-dialog {}
+
+.modal-body video {
   width: 700px;
   height: 500px;
 }
+
 .slide {
   align-self: center;
   width: 100%;
@@ -80,7 +90,7 @@ header {
 .slide-one {
   width: 100%;
   height: 50vh;
-  background-image: url(../assets/img/slide01-01.jpg);
+  background-image: url(../assets/img/slide03-01.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -104,16 +114,18 @@ header {
   background-repeat: no-repeat;
 }
 
-nav  {
+nav {
   background-color: var(--warm-black);
   font-size: 1.6rem;
-  
+
 
 }
-.container-fluid{
+
+.container-fluid {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .logo__container {
   width: 60%;
   display: flex;
@@ -125,7 +137,7 @@ nav  {
   width: 40px;
   height: 50px;
   margin-right: 15px;
-  
+
 }
 
 .logo__container a {
@@ -205,15 +217,18 @@ main {
   width: 100%;
   height: auto;
 }
-.carousel-caption{
+
+.carousel-caption {
   width: 350px;
   height: 200px;
   margin-left: -230px;
 }
-.carousel-control-prev{
+
+.carousel-control-prev {
   width: 50px;
 }
-.buttonShop{
+
+.buttonShop {
   z-index: 2;
   width: 300px;
   height: 60px;
@@ -231,11 +246,12 @@ main {
   text-decoration: none;
 }
 
-.buttonShop:hover{
- background-color: #9c0109;
- color: white;
+.buttonShop:hover {
+  background-color: #9c0109;
+  color: white;
 
 }
+
 .main-exchange-container {
   width: 100%;
   height: auto;
@@ -271,14 +287,15 @@ main {
   line-height: 2.6rem;
   color: var(--black);
 }
-.main-exchange-container p{
+
+.main-exchange-container p {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.6rem;
 }
 
 
-.main-currency-table{
+.main-currency-table {
   margin: 0 auto;
   width: 90%;
   display: flex;
@@ -299,7 +316,8 @@ main {
   background-repeat: no-repeat;
   border-radius: 50%;
 }
-.text-p__container{
+
+.text-p__container {
   margin-top: 20px;
   width: 80%;
   min-width: 288px;
@@ -491,7 +509,8 @@ main {
 
 .plans-container--slider {
   display: flex;
-  /* gap: 50px; Aun no está soportado por todos los navegadores :( */
+  gap: 1px;
+  /* Aun no está soportado por todos los navegadores :( */
   height: 516px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
@@ -559,6 +578,7 @@ main {
   line-height: 1.8rem;
   color: var(--black);
 }
+
 .plan-card--ca:hover {
   background-color: var(--zaragoza-red);
   color: var(--off-white);
@@ -622,11 +642,13 @@ main {
   line-height: 2.6rem;
   color: var(--just-white);
 }
-.suc-cards--container{
+
+.suc-cards--container {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
+
 .suc-detail--card {
   margin: 10px;
   text-align: center;
@@ -634,7 +656,8 @@ main {
   height: 100px;
 
 }
-.suc-detail--card a{
+
+.suc-detail--card a {
   font-size: 1.3rem;
   color: var(--off-white);
   text-decoration: none;
@@ -650,6 +673,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .suc-detail--card .edomex {
   display: inline-block;
   align-content: space-between;
@@ -660,6 +684,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .suc-detail--card .morelos {
   display: inline-block;
   align-content: space-between;
@@ -681,6 +706,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .suc-detail--card .veracruz {
   display: inline-block;
   align-content: space-between;
@@ -691,6 +717,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .suc-detail--card .tabasco {
   display: inline-block;
   align-content: space-between;
@@ -701,6 +728,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .suc-detail--card .oaxaca {
   display: inline-block;
   align-content: space-between;
@@ -711,6 +739,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .suc-detail--card .michoacan {
   display: inline-block;
   align-content: space-between;
@@ -721,6 +750,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .suc-detail--card .guerrero {
   display: inline-block;
   align-content: space-between;
@@ -746,14 +776,16 @@ main {
   margin-bottom: 20px;
   text-align: center;
 }
-form .btn-primary{
+
+form .btn-primary {
   width: 100%;
   height: 40px;
   margin-top: 10px;
   background-color: var(--zaragoza-red);
-  border: 1px solid  var(--zaragoza-red);
+  border: 1px solid var(--zaragoza-red);
 }
-form .btn-primary:hover{
+
+form .btn-primary:hover {
   width: 100%;
   height: 40px;
   margin-top: 10px;
@@ -773,10 +805,12 @@ footer section {
   align-items: center;
   width: 100%;
 }
-.contact-container{
-  margin-top:40px;
+
+.contact-container {
+  margin-top: 40px;
 }
-.contact-container a{
+
+.contact-container a {
   color: var(--just-white);
   font-size: 1.6rem;
   margin-right: 10px;
@@ -785,44 +819,53 @@ footer section {
   cursor: pointer;
 
 }
-.contact-container li{
+
+.contact-container li {
   margin-bottom: 10px;
   list-style: none;
 }
-.contact-container em{
+
+.contact-container em {
   margin-right: 10px;
 }
-.social-media{
+
+.social-media {
   display: flex;
   margin-top: -3px;
 }
-.social-media li{
+
+.social-media li {
   margin-left: 5px;
 }
 
 
 @media (min-width: 600px) {
-  .main-currency-table{
+  .main-currency-table {
     justify-content: center;
-  
+
   }
-  .img-company{
+
+  .img-company {
     margin-right: 30px;
   }
-  .container-fluid{
+
+  .container-fluid {
     margin-left: 40px;
     margin-right: 20px;
   }
-  .contact-container{
+
+  .contact-container {
     display: flex;
     flex-direction: column;
   }
-  form{
+
+  form {
     width: 100%;
     justify-content: center;
     font-size: 1.6rem;
     padding: 5px;
   }
+
   form .btn-primary {
     width: 270px;
     height: 40px;
@@ -830,29 +873,35 @@ footer section {
     margin-top: 10px;
     border: none;
     background-color: var(--zaragoza-red);
-   }
-   form .btn-primary:hover {
+  }
+
+  form .btn-primary:hover {
     width: 270px;
     height: 40px;
     font-size: 1.6rem;
     margin-top: 10px;
     background-color: var(--warm-black);
-   }
+  }
 }
+
 @media (max-width: 600px) {
-  footer{
+  footer {
     height: auto;
   }
-  .contact-container{
+
+  .contact-container {
     height: auto;
   }
-  .right{
+
+  .right {
     width: 60%;
   }
-  .contact-container ul li a{
+
+  .contact-container ul li a {
     font-size: 1.2rem;
   }
-  .modal-body video{
+
+  .modal-body video {
     width: 300px;
     height: 300px;
   }
@@ -863,19 +912,19 @@ footer section {
     height: 20vh;
     max-height: 90vh;
   }
-  
+
   .slide-one {
     width: 100%;
     height: 20vh;
     background-image: url(../assets/img/slide01-01.jpg);
   }
-  
+
   .slide-two {
     width: 100%;
     height: 20vh;
     background-image: url(../assets/img/slide2-01.jpg);
   }
-  
+
   .slide-three {
     width: 100%;
     height: 20vh;
@@ -884,5 +933,5 @@ footer section {
     background-position: center;
     background-repeat: no-repeat;
   }
-  
+
 }

@@ -1,22 +1,22 @@
 [{
-	"x":270,
+	"x":287,
 	"y":0,
-	"width":161,
-	"height":148,
+	"width":171,
+	"height":143,
 	"class":"zoom"
 },
 {
-	"x":51,
-	"y":77,
-	"width":174,
-	"height":141,
+	"x":287,
+	"y":155,
+	"width":175,
+	"height":134,
 	"class":"zoom"
 },
 {
-	"x":33,
-	"y":448,
-	"width":398,
-	"height":113,
+	"x":0,
+	"y":264,
+	"width":177,
+	"height":123,
 	"class":"zoom"
 }
 ]
