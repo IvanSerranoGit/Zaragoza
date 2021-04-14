@@ -164,7 +164,6 @@ nav {
   margin-top: 0;
   text-align: center;
   align-self: center;
-  border: 1px solid red;
 }
 
 .header--title-container h1 {
@@ -610,7 +609,7 @@ main {
 }
 
 .right img {
-  width: 60px;
+  width: 100px;
 }
 
 
@@ -773,13 +772,24 @@ main {
   background-repeat: no-repeat;
 }
 
+.main-contact-container{
+  padding-top: 30px;
+  /* border: 1px solid red;
+  display: flex; */
+  width: 100%;
+  height: 500px;
+  background-color:#F4F4F4;
+}
+.main-contact-container h2{
+  text-align: center;
 
+}
 .contact-container {
+  align-items: center;
   width: 90%;
   margin: 0 auto;
   max-width: 800px;
   margin-bottom: 20px;
-  border: 1px solid red;
 
 }
 
@@ -789,7 +799,7 @@ main {
   text-align: center;
 }
 form{
-  width: 40%!important;
+  width: 50%;
 }
 
 form .btn-primary {
@@ -799,6 +809,7 @@ form .btn-primary {
   background-color: var(--zaragoza-red);
   border: 1px solid var(--zaragoza-red);
 }
+
 .contact-container {
   display: flex;
 }
@@ -809,11 +820,14 @@ form .btn-primary:hover {
   margin-top: 10px;
   background-color: var(--warm-black);
 }
+.form-group{
+  width: 90%;
+}
 
 footer {
   display: flex;
   width: 100%;
-  height: 150px;
+  height: 350px;
   background-color: var(--warm-black);
 }
 
@@ -827,7 +841,9 @@ footer section {
 .image-container-contact{
   width: 400px;
   height: 400px;
-  background-image:url(../assets/img/portrait-of-woman-working-in-call-center.jpg)
+  background-image:url(../assets/img/portrait-of-woman-working-in-call-center.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .contact-container a {
@@ -859,6 +875,24 @@ footer section {
 }
 
 
+@media (max-width: 599px) {
+  
+  .image-container-contact{
+   display: none;
+  }
+  .contact-container form{
+    width: 100%;
+    margin-top: 50px;
+  }
+  .contact-container{
+    margin-top: 30px;
+  }
+  .form-group{
+    width: 100%;
+  }
+  
+ }
+
 @media (min-width: 600px) {
   .main-currency-table {
     justify-content: center;
@@ -883,7 +917,7 @@ footer section {
   }
  
   form .btn-primary {
-    width: 270px;
+    width: 90%;
     height: 40px;
     font-size: 1.6rem;
     margin-top: 10px;
@@ -892,12 +926,23 @@ footer section {
   }
 
   form .btn-primary:hover {
-    width: 270px;
+    width: 90%;
     height: 40px;
     font-size: 1.6rem;
     margin-top: 10px;
     background-color: var(--warm-black);
   }
+  .image-container-contact{
+    width: 400px;
+    height: 400px;
+    background-image:url(../assets/img/portrait-of-woman-working-in-call-center.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .contact-container {
+    display: flex;
+  }
+  
 }
 @media only screen and (min-width: 1360px){
   .slide{
