@@ -7,3 +7,16 @@
     }
     
   }
+  /* .column{
+      border: 1px solid red;
+      height: 200px;
+  } */
+
+  .column iframe{
+      margin-bottom: 20px;
+  }
+
+  .column .button{
+      margin-top: 30px;
+      margin-bottom: 60px;
+  }
