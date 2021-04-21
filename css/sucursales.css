@@ -5,7 +5,12 @@
     .column a{
         font-size: 15px;
     }
-    
+    .column .button{
+        margin-bottom: 90px;
+    }
+    .menu-up{
+        width: auto;
+    }
   }
   /* .column{
       border: 1px solid red;
