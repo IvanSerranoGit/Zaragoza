@@ -18,6 +18,9 @@
      display: flex;
      overflow-y: hidden;
      overflow-x: auto;
+     align-items: center;
+    text-align: center;
+    justify-content: center;
  }
 
  @media (max-width: 600px) {
@@ -35,6 +38,12 @@
 
      .menu-up {
          width: 300px;
+
+     }
+     .suc_img{
+        align-items: center;
+        text-align: center;
+        justify-content: left;
      }
  }
 
