@@ -19,8 +19,8 @@
      overflow-y: hidden;
      overflow-x: auto;
      align-items: center;
-    text-align: center;
-    justify-content: center;
+     text-align: center;
+     justify-content: center;
  }
 
  @media (max-width: 600px) {
@@ -35,15 +35,19 @@
      ul li a {
          font-size: 12px;
      }
+     .menu{
+         display: inline-flex;
+     }
 
      .menu-up {
          width: 300px;
 
      }
-     .suc_img{
-        align-items: center;
-        text-align: center;
-        justify-content: left;
+
+     .suc_img {
+         align-items: center;
+         text-align: center;
+         justify-content: left;
      }
  }
 
